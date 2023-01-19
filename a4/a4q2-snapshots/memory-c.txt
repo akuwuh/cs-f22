@@ -1,0 +1,17 @@
+main.c when point C is reached.
+
+
+****************************************
+STACK
+===================================
+main:
+  good: 30 [addr_1]
+  evil: 2 [addr_2]
+  a1: [addr_3]
+    .truth: 500
+    .lies: 21
+  a2: [addr_4]
+    .truth: 60
+    .lies: 25
+  return address: OS
+===================================

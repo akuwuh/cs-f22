@@ -1,0 +1,8 @@
+make_hm 13 30
+print_hm
+add_min 15
+print_hm
+get_min
+add_min 30
+print_hm
+get_min

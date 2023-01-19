@@ -1,0 +1,18 @@
+main.c when point A is reached.
+
+
+****************************************
+STACK
+===================================
+merlin:
+  good: addr_2
+  evil: addr_2
+  return address: main: 44
+===================================
+main:
+  good: 30 [addr_1]
+  evil: 2 [addr_2]
+  a1: ???
+  a2: ???
+  return address: OS
+===================================

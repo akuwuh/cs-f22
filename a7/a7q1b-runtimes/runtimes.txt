@@ -1,0 +1,54 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+// INTEGRITY STATEMENT (v4)
+//
+// By signing your name and ID below you are stating that you have agreed
+// to the online academic integrity statement posted on edX:
+// (Course > Assignments > Assignment Information & Policies > Academic Integrity Policy)
+/////////////////////////////////////////////////////////////////////////////////////////
+// I received help from and/or collaborated with:
+
+// NO One
+//
+// Name: Isaac Nguyen
+// login ID: i3nguyen
+//////////////////////////////////////////////////////////////////////////////////////////
+
+1) 
+time: O(n)
+justification:
+Let n be the length of the array.
+T(n) = O(1) + .. + O(1)
+     = O(1) * n
+     = O(n)
+
+2) 
+time:O(nlogn)
+justification:
+let n be the length of the array
+O(1) + (O(logn) + O(logn)) +  .. (O(logn) + O(logn)) (n times)
+= O(1) + O(nlogn)
+= O(nlogn)
+
+3) 
+time: O(nk)
+justification:
+let n be the length of arr1 and k be the length of arr2
+Outter loop: O(n)
+Innter loop: O(k) + O(k) = O(k)
+T(n) = O(nk)
+
+4) 
+time:O(nlogn)
+justification:
+let n be the length of the array
+Outer loop: O(logn)
+Inner loop: O(n)
+
+
+5) 
+time:O(2^n)
+justification:
+let n be length of array
+based on definition:
+T(n) = O(1) + T(n-k1) + T(n-k1)
+     = O(2^n)
